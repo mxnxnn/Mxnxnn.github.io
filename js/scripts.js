@@ -31,6 +31,7 @@
 */
 
 
+
 (function ($) {
     'use strict';
 
@@ -110,7 +111,7 @@
 		
         $(window).load(function(){
         $(".typing").typed({
-            strings: ["Dreamer","Designer","and","Developer "],    /* You can change the home section typing text from                                                                    here and do not use "&" use "and" */
+            strings: ["Dreamer","Designer","And","Developer"],    /* You can change the home section typing text from                                                                    here and do not use "&" use "and" */
             typeSpeed: 80,
             backDelay: 500,
             loop: !0, // here
